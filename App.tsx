@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Door } from './components/Door';
 import { RoomView } from './components/RoomView';
@@ -58,7 +57,7 @@ const App: React.FC = () => {
                   />
               </div>
               <h2 className="text-2xl md:text-3xl font-semibold text-amber-400 tracking-widest mt-2 mb-4">REBUILD. REFOCUS. RISE.</h2>
-              <p className="mt-2 text-lg md:text-xl text-gray-300 font-medium">Your new beginning starts here.</p>
+              <p className="mt-2 text-lg md:text-xl text-gray-300 font-medium">Your new beginning starts here..</p>
             </header>
             <main className="flex flex-wrap justify-center items-start gap-x-8 gap-y-16 md:gap-x-16 md:gap-y-24" style={{ perspective: '1500px' }}>
               {ROOM_DATA.map((room) => (
